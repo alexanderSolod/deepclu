@@ -1,0 +1,6 @@
+.env
+allofus-integ/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
