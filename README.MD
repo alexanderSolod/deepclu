@@ -4,7 +4,7 @@
 
 # Deep Clu: Deep Learning Cluster Interpretation
 
-This repository contains the code for the Deep Clu tool, designed for cluster interpretation. The development and functionality of this tool is explained in greater detail in our [accompanying paper](URL).
+This repository contains the code for the Deep Clu tool, designed for cluster interpretation. The development and functionality of this tool is explained in greater detail in our accompanying paper.
 
 The transformative capabilities of Large Language Models (LLMs) have been widely acknowledged in the clinical domain, with applications ranging from clinical decision support tools to documentation generators. However, the potential use of LLMs in data analysis has not been as extensively explored. Deep Clu is a proof of concept demonstrating the utility of LLMs in analyzing the output of machine learning algorithms.
 
@@ -51,6 +51,8 @@ To install the local environment, you will need to install the dependencies list
 Then, start the server by running app.py
 
 ```python3 app.py```
+
+You will need to provide your own OpenAI API key. You can add it to the enviornment file or add it directly to the server code.
 
 ### Client
 Firstly, ensure that `npm`, `vue`, and `vueify` are installed on your machine. If not, you can install them using the following commands:
